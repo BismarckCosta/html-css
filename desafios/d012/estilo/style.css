@@ -1,8 +1,18 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Oswald & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Square+Peg & display=swap');
+
+:root{
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'Oswald', sem serifa;
+    --fonte3:'Square Peg', cursiva;
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
@@ -12,11 +22,13 @@ html, body {
 header {
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: center; 
 }
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 3.5em;
+    font-family: var(--fonte2);
 }
 header > p {
     padding-bottom: 50px;
